@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:OpenClokk"
         mc:Ignorable="d"
         Title="OpenClokk" Height="137.499" Width="401.923" WindowStartupLocation="Manual"
-        SizeToContent="Height" ResizeMode="NoResize" Background="Gray" Topmost="True" AllowsTransparency="True" WindowStyle="None">
+        SizeToContent="Height" ResizeMode="NoResize" Background="Gray" Topmost="True" AllowsTransparency="True" WindowStyle="None" LocationChanged="MainWindow_LocationChanged">
     <Window.Style>
         <Style TargetType="Window">
-            <Setter Property="Opacity" Value=".35" />
+            <Setter Property="Opacity" Value=".50" />
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Opacity" Value=".8"/>
